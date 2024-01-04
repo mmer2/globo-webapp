@@ -48,3 +48,9 @@ variable "tfe_workspsace_name" {
   description = "Workspace Name"
 
 }
+
+variable "playbook_repository" {
+  type        = string
+  description = "URI of the playbook that needs to be executed on the instance."
+
+}
